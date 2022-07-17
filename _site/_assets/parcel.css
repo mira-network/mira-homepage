@@ -16311,6 +16311,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* Mira */
+h1, .h1 {
+  text-align: center;
+}
+/* Back to top */
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
