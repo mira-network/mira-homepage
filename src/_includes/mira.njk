@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="{{ site.language }}">
+  <head>
+    {% block head %}
+      <title>{{ site.meta.title }}</title>
+      <meta name="description" content="{{ site.meta.description }}">
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+      <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+      {% block css %}
+        <link href="/_assets/parcel.css" rel="stylesheet"/>
+
+        {% if env.isDev %}
+          <link href="/_assets/parcel.css.map" rel="application/json"/>
+        {% endif %}
+      {% endblock css %}
+    {% endblock head %}
+  </head>
+  <body>
+    {% block header %}
+      {% include "components/header.njk" %}
+    {% endblock header %}
+
+    {% block content %}
+      {{ content|safe }}
+    {% endblock content %}
+
+    {% block footer %}
+      {% include "components/footer.njk" %}
+    {% endblock footer %}
+
+    {% block js %}
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+      <script src="/_assets/parcel.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        //Get the button
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+      {% if env.isDev %}
+        <script src="/_assets/parcel.js.map" rel="application/json"></script>
+      {% endif %}
+
+      <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+    {% endblock js %}
+  </body>
+</html>

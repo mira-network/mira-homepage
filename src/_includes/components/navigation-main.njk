@@ -1,15 +1,37 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-primary">
-  <a class="navbar-brand" href="/">{{ site.name }}</a>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse d-md-flex justify-content-md-end" id="navbarNav">
-    <ul class="navbar-nav">
-      {% for item in menus.main %}
+<!-- Navigation -->
+<section class="py-0 px-0 bg-dark text-white">
+
+  <div class="container ">
+    <header class="d-flex flex-wrap justify-content-center py-3 pb-4 ">
+      <a href="/" class="d-flex align-items-center px-3 mb-3 mb-lg-0 me-md-auto text-dark text-decoration-none">
+        <img src="_assets/img/MiraNetworkLogoWhiteText466x150trsp.png" height="48">
+      </a>
+
+      <ul class="nav nav-pills">
         <li class="nav-item">
-          <a href="{{ item.url }}" class="nav-link link-light" {{ 'aria-current=page' if page.url == item.url }}>{{ item.name }}</a>
+          <a href="#features" class="nav-link text-white">Features</a>
         </li>
-      {% endfor %}
-    </ul>
+        <li class="nav-item">
+          <a href="#pricing" class="nav-link text-white">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#pricing" class="nav-link text-white">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="#blog" class="nav-link text-white">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white">Support</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link text-white">About</a>
+        </li>
+      </ul>
+      <form class="col-12 col-lg-auto mt-3 mt-lg-0 mt-md-0 mb-3 mb-lg-0 me-lg-3" role="search">
+        <div class="input-group mb-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </div>
+      </form>
+    </header>
   </div>
-</nav>
+</section>
