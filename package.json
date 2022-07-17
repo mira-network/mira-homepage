@@ -36,5 +36,6 @@
         "purgecss": "^4.0.0",
         "rimraf": "^3.0.2",
         "scss": "^0.2.4"
-    }
+    },
+    "dependencies": {}
 }

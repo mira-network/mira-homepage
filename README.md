@@ -6,15 +6,14 @@
 1. NPM install
 1. testkör lokalt: NPM start.
 1. Uppdaterar readme.md
-1. Deploy till Azure
+1. Förbereder deploy till Azure
     - ändrar output till _dist
     - tar bort markdown-it
-
+1. Sätter upp deploy till Azure Static Web App. Se https://squalr.us/2021/05/deploying-an-11ty-site-to-azure-static-web-apps/
+    - varnar för fsevents@2.3.2
+    - Kör npx browserslist@latest --update-db
 
 ## Plan / todo
-- Deploy azure. Se https://squalr.us/2021/05/deploying-an-11ty-site-to-azure-static-web-apps/
-  - ändra sökvägar för parcel
-  - 
 - Test pages 
 - Font awesome
 - AOS
