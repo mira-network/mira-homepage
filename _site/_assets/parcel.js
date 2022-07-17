@@ -447,6 +447,18 @@ require("./src/_assets/js/main.js");
 
 },{"./src/_assets/scss/main.scss":"DuIhq","./src/_assets/js/main.js":"6Bpqg"}],"DuIhq":[function() {},{}],"6Bpqg":[function(require,module,exports) {
 require("./_bootstrap.js");
+(function () {
+  $(document).ready(function () {
+    $('.logo-carousel').slick({
+      infinite: true,
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: true
+    });
+  });
+})();
 
 },{"./_bootstrap.js":"6uiQt"}],"6uiQt":[function(require,module,exports) {
 require("bootstrap/js/dist/alert");

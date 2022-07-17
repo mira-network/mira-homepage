@@ -23,17 +23,23 @@
     - lägg till i main.scss
 1. titillium web, pt sans
     - Lyckas inte lägga till med @import, använder <link>
+1. Slick slider. Se https://kenwheeler.github.io/slick/
+    - npm i jquery
+    - npm i slick-carousel
+    - länkar in från mira.njk, bör flytta till SASS/parcel.
     
 ## Plan / todo
 - Fixa så länkar rätt till logo från simple
 - Test pages 
-- Slick slider
-- flytta ner markets till annan layout
-- hämta in blogartiklar från WordPress
-
-## Someday / Maybe
-- AOS
-
+- flytta ner markets till annan layout, döp om till solutions
+- hämta in blogartiklar från WordPress. https://getbootstrap.com/docs/5.2/examples/album/
+- ScrollSpy för navigering https://getbootstrap.com/docs/5.2/components/scrollspy/
+- AOS. Eller? Känns inte lika snabb?
+- Slå ihop navigeringsalternativ. Drop downs?
+    - Solutions & Features
+    - Professional services & Support & Blog/articles
+    - About & Careers
+    
 
 # 11ty-bs5-starter
 
