@@ -18,13 +18,13 @@
     - knapp i navigation-main
     - script (fanns sedan tidigare commit)
     - CSS i main.scss
+1. Font awesome
+    - npm install @fortawesome/fontawesome-free
+    - lägg till i main.scss
     
 ## Plan / todo
-
-
-- mira startpage, med assets
+- titillium web, pt sans
 - Test pages 
-- Font awesome
 - Slick slider
 
 ## Someday / Maybe
