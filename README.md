@@ -1,3 +1,27 @@
+# Mira Network Homepage. Based on 11ty-bs5-starter
+
+## Logg
+1. Fork @THoenig\ till @mira-network\mira-homepage
+1. Med VS Code, clone till lokal katalog
+1. NPM install
+1. testkör lokalt: NPM start.
+1. Uppdaterar readme.md
+1. Deploy till Azure
+    - ändrar output till _dist
+    - tar bort markdown-it
+
+
+## Plan / todo
+- Deploy azure. Se https://squalr.us/2021/05/deploying-an-11ty-site-to-azure-static-web-apps/
+  - ändra sökvägar för parcel
+  - 
+- Test pages 
+- Font awesome
+- AOS
+- Back to top
+- Slick slider
+
+
 # 11ty-bs5-starter
 
 Bootstrap 5 starter for [11ty](https://www.11ty.dev/). Developed with rapid prototyping, easy customization/theming and fast loading times in mind.
