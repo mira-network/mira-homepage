@@ -29,6 +29,7 @@
     - länkar in från mira.njk, bör flytta till SASS/parcel.
 1. Solutions som featurettes. https://getbootstrap.com/docs/5.2/examples/carousel/
     - 
+1. Navigering som navbar. https://getbootstrap.com/docs/5.2/components/navbar/
     
 ## Plan / todo
 - Fixa så länkar rätt till logo från simple
