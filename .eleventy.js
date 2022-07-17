@@ -15,8 +15,8 @@ module.exports = function(config) {
     config.setTemplateFormats([
         'njk',
         'md',
-        //        'jpg',
-        //        'png',
+        'jpg',
+        'png',
         'svg',
         // 'liquid',
         // 'pug',
@@ -26,9 +26,6 @@ module.exports = function(config) {
         // 'haml',
         // '11ty.js',
     ])
-
-    // config.addPassthroughCopy("**/*.jpg");
-    // config.addPassthroughCopy("**/*.png");
 
     const markdownItOptions = {
         html: true,
