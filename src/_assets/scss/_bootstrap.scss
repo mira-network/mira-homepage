@@ -8,6 +8,9 @@ $headings-font-family: 'Titillium Web',
 serif;
 $font-family-base: 'PT Serif',
 serif;
+--#{$prefix}nav-link-color: var(--#{$prefix}navbar-color);
+--#{$prefix}nav-link-hover-color: var(--#{$prefix}navbar-hover-color);
+--#{$prefix}nav-link-disabled-color: var(--#{$prefix}navbar-disabled-color);
 // Bootstrap configuration
 @import "bootstrap/scss/_functions";
 @import "bootstrap/scss/_variables";
