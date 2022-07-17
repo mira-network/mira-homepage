@@ -16,6 +16,7 @@
 
 
 ## Plan / todo
+- mira startpage, med assets
 - Test pages 
 - Font awesome
 - Back to top
