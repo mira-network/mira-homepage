@@ -32,6 +32,8 @@
 1. Navigering som navbar. https://getbootstrap.com/docs/5.2/components/navbar/
     
 ## Plan / todo
+- Intercom
+- Google Analytics, eller Application insights
 - Fixa så länkar rätt till logo från simple
 - Test pages 
 - hämta in blogartiklar från WordPress. https://getbootstrap.com/docs/5.2/examples/album/
