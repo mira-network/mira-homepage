@@ -27,11 +27,12 @@
     - npm i jquery
     - npm i slick-carousel
     - länkar in från mira.njk, bör flytta till SASS/parcel.
+1. Solutions som featurettes. https://getbootstrap.com/docs/5.2/examples/carousel/
+    - 
     
 ## Plan / todo
 - Fixa så länkar rätt till logo från simple
 - Test pages 
-- flytta ner markets till annan layout, döp om till solutions
 - hämta in blogartiklar från WordPress. https://getbootstrap.com/docs/5.2/examples/album/
 - ScrollSpy för navigering https://getbootstrap.com/docs/5.2/components/scrollspy/
 - AOS. Eller? Känns inte lika snabb?
