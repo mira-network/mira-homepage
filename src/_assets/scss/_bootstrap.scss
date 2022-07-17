@@ -4,6 +4,10 @@
 // More info here: https://getbootstrap.com/docs/5.0/customize/sass/
 $dark: #A7BBC3;
 $primary: #BED72E;
+$headings-font-family: 'Titillium Web',
+serif;
+$font-family-base: 'PT Serif',
+serif;
 // Bootstrap configuration
 @import "bootstrap/scss/_functions";
 @import "bootstrap/scss/_variables";

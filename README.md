@@ -21,11 +21,15 @@
 1. Font awesome
     - npm install @fortawesome/fontawesome-free
     - lägg till i main.scss
+1. titillium web, pt sans
+    - Lyckas inte lägga till med @import, använder <link>
     
 ## Plan / todo
-- titillium web, pt sans
+- Fixa så länkar rätt till logo från simple
 - Test pages 
 - Slick slider
+- flytta ner markets till annan layout
+- hämta in blogartiklar från WordPress
 
 ## Someday / Maybe
 - AOS
