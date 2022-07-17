@@ -12,13 +12,17 @@
 1. Sätter upp deploy till Azure Static Web App. Se https://squalr.us/2021/05/deploying-an-11ty-site-to-azure-static-web-apps/
     - varnar för fsevents@2.3.2
     - Kör npx browserslist@latest --update-db
+1. Sätt upp fixa _includes, minimal index.njk, simple.njk
+
 
 ## Plan / todo
 - Test pages 
 - Font awesome
-- AOS
 - Back to top
 - Slick slider
+
+## Someday / Maybe
+- AOS
 
 
 # 11ty-bs5-starter
