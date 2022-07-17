@@ -3,22 +3,25 @@
   <head>
     
       <title>Bootstrap 5 starter for 11ty</title>
+      <meta name="description" content="Developed with rapid prototyping and fast loading times in mind.">
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Developed with rapid prototyping and fast loading times in mind.">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+      <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+      <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
-  <link href="/_assets/parcel.css" rel="stylesheet"/>
+      
+        <link href="/_assets/parcel.css" rel="stylesheet"/>
 
-  
-    <link href="/_assets/parcel.css.map" rel="application/json"/>
-  
-
-
+        
+          <link href="/_assets/parcel.css.map" rel="application/json"/>
+        
+      
     
   </head>
-  <body class="d-flex flex-column justify-content-between min-vh-100">
+  <body>
     
       <!-- Navigation -->
 <section class="py-0 px-0 bg-dark text-white">
@@ -58,14 +61,12 @@
   </div>
 </section>
 
+
     
 
     
-      <main class="container my-3 flex-grow-1">
-        <h1></h1>
-        <h1>simple</h1>
+      <h1>simple</h1>
 <p>Detta är en enkel testsida för att testa features.</p>
-      </main>
     
 
     
@@ -80,11 +81,46 @@
     
 
     
-      <script src="/_assets/parcel.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
+      <script src="/_assets/parcel.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        //Get the button
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
       
         <script src="/_assets/parcel.js.map" rel="application/json"></script>
       
+
+      <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
     
   </body>
 </html>

@@ -2,14 +2,13 @@
 // $primary: red;
 //
 // More info here: https://getbootstrap.com/docs/5.0/customize/sass/
-
-
+$dark: #A7BBC3;
+$primary: #BED72E;
 // Bootstrap configuration
 @import "bootstrap/scss/_functions";
 @import "bootstrap/scss/_variables";
 @import "bootstrap/scss/_mixins";
 @import "bootstrap/scss/_utilities";
-
 // Layout & components
 @import "bootstrap/scss/_root";
 @import "bootstrap/scss/_reboot";
@@ -40,9 +39,7 @@
 @import "bootstrap/scss/_toasts";
 @import "bootstrap/scss/_tooltip";
 @import "bootstrap/scss/_transitions";
-
 // Helpers
 @import "bootstrap/scss/_helpers";
-
 // Utilities
 @import "bootstrap/scss/utilities/_api";

@@ -13,13 +13,14 @@
     - varnar för fsevents@2.3.2
     - Kör npx browserslist@latest --update-db
 1. Sätt upp fixa _includes, minimal index.njk, simple.njk
-
+1. Första version av startsida
 
 ## Plan / todo
+- Back to top
+
 - mira startpage, med assets
 - Test pages 
 - Font awesome
-- Back to top
 - Slick slider
 
 ## Someday / Maybe
