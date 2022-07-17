@@ -14,9 +14,13 @@
     - Kör npx browserslist@latest --update-db
 1. Sätt upp fixa _includes, minimal index.njk, simple.njk
 1. Första version av startsida
-
+1. Back to top https://mdbootstrap.com/docs/standard/extended/back-to-top/
+    - knapp i navigation-main
+    - script (fanns sedan tidigare commit)
+    - CSS i main.scss
+    
 ## Plan / todo
-- Back to top
+
 
 - mira startpage, med assets
 - Test pages 
