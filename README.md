@@ -33,6 +33,7 @@
 1. Mockup av blog med cards
     
 ## Plan / todo
+- Print css, page breaks
 - Intercom
 - Google Analytics, eller Application insights
 - Fixa så länkar rätt till logo från simple
