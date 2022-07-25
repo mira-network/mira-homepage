@@ -1,0 +1,13 @@
+---
+pagination:
+    data: posts
+    size: 1
+    alias: posts
+permalink: "posts/{{ posts.slug }}/"
+layout: post.njk
+---
+
+<h1>{{ posts.title.rendered | safe }}</h1>
+<div class="mainContent">
+    {{posts.content.rendered | safe}}
+</div>

@@ -1,6 +1,7 @@
 # Mira Network Homepage. Based on 11ty-bs5-starter
 
 ## Logg
+
 1. Fork @THoenig\ till @mira-network\mira-homepage
 1. Med VS Code, clone till lokal katalog
 1. NPM install
@@ -33,19 +34,23 @@
 1. Mockup av blog med cards
     
 ## Plan / todo
+- hämta in blogartiklar från WordPress. https://getbootstrap.com/docs/5.2/examples/album/
 - Print css, page breaks
 - Intercom
 - Google Analytics, eller Application insights
 - Fixa så länkar rätt till logo från simple
 - Test pages 
-- hämta in blogartiklar från WordPress. https://getbootstrap.com/docs/5.2/examples/album/
 - ScrollSpy för navigering https://getbootstrap.com/docs/5.2/components/scrollspy/
 - AOS. Eller? Känns inte lika snabb?
 - Slå ihop navigeringsalternativ. Drop downs?
     - Solutions & Features
     - Professional services & Support & Blog/articles
     - About & Careers
-    
+- Sökmotor. Algolia?
+- Knowledge base: start, artikelsida, kategorisidor, språk?
+- mockup kurskatalog för demo. eller egen site?
+- integrations-sida
+- 
 
 # 11ty-bs5-starter
 
